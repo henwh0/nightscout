@@ -1,7 +1,6 @@
----------
 services:
   nightscout:
-    image: nightscout/nightscout:latest
+    image: nightscout/cgm-remote-monitor:latest
     env_file:
       - .env
     ports:
